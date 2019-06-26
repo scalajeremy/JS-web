@@ -1,0 +1,27 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+
+.cyclerBody{
+  width: 500px;
+  height: 500px;
+  margin:auto;
+  overflow: hidden; // hide scroll
+}
+
+.cycler{
+  object-fit: cover; // Don't scale the image
+  object-position: center;
+  height: 500px;
+  width: 500px;
+  border-radius: 100px;
+  border-style: solid;
+  border-width: 15px;
+  border-color: #16232E;
+}

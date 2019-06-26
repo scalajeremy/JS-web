@@ -1,0 +1,60 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+
+.gallery{
+  // width: 100px;
+  // height: 100px;
+  margin:auto;
+  overflow: hidden; // hide scroll
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  // background-color: red;
+}
+
+.img{
+  object-fit: cover; // Don't scale the image
+  object-position: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: #63C3D1;
+}
+
+.button{
+  margin: auto;
+  // background-color: red;
+  margin-bottom: 2rem;
+}
+.randBtn{
+  background-color: #63C3D1;
+  border-color: #16232E;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+}
+
+.squareBtn{
+  background-color: #63C3D1;
+  border-color: #16232E;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 1rem;
+}

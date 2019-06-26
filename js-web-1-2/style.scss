@@ -1,0 +1,30 @@
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+.calculator{
+  background-color: #16232E;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 28%;
+  margin: auto;
+}
+.button{
+  width: 35px;
+  background-color: #63C3D1;
+  border-color: #63C3D1;
+}
+#result{
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 2.5rem;
+  background-color: #63C3D1;
+  width: 28%;
+  margin: auto;
+  text-align: center;
+}

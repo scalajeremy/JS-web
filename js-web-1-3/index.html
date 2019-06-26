@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>BeCode/JavaScript for the Web Exercise</title>
+
+  <link rel="icon" href="./_shared/img/becode-seal.png" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>BeCode / JavaScript for the Web</h1>
+      <h2>
+        <strong><i class="fas fa-arrow-right"></i> Super Vilain application form <i class="fas fa-arrow-left"></i></strong>
+      </h2>
+    </header>
+    <div class="content">
+      <p>
+        <i class="fas fa-arrow-right"></i>
+        <div>
+          <form class="form">
+              <input type="text" id="name" name="name" tabindex="1" placeholder="Super Vilain Name" tabindex="1">
+              <input type="text" id="power" name="power" tabindex="1" placeholder="Power" tabindex="2">
+              <input type="text" id="motiv" name="motiv" tabindex="1" placeholder="Want to" tabindex="3">
+              <textarea id="plan" name="plan" tabindex="1" placeholder="What's the plan"tabindex="4" rows="5" cols="33"></textarea>
+              <button class="butSend" id="butSend">Send application</button>
+              <button class="butReset" type="reset">Reset</button>
+            </form>
+        </div>
+        <div class="result">
+          <div id="nameVillain"></div>
+          <div id="powerVillain"></div>
+          <div id="motivVillain"></div>
+          <div id="planVillain"></div>
+        </div>
+        <div id="return"></div>
+        <i class="fas fa-arrow-left"></i>
+      </p>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

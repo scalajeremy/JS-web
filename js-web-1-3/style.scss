@@ -1,0 +1,72 @@
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+
+.form{
+  background-color: #16232E;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: auto;
+}
+
+.butSend{
+  background-color: #0bd066;
+  border-color: #0bd066;
+  color: white;
+  font-weight: bold;
+}
+.butReset{
+  background-color: red;
+  border-color: red;
+  color: white;
+  font-weight: bold;
+}
+
+#butReturn{
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+}
+
+.result{
+  background-color: #16232E;
+  color: white;
+  width: 60%;
+  margin: auto;
+  padding: 30px;
+}
+
+#nameVillain{
+  font-family: 'Bangers', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#powerVillain{
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#motivVillain{
+  font-size: 1.5rem;
+
+}
+
+#planVillain{
+  column-count: 2;
+  column-fill: balance;
+  text-align: justify;
+}
+
+#return{
+  text-align: center;
+}

@@ -1,0 +1,58 @@
+
+/*
+  Import the common theme.
+*/
+@import "./_shared/scss/theme.scss";
+
+/*
+  If you need some CSS for any reason you can put it here.
+*/
+
+.gallery{
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card-beer{
+  font-family: sans-serif;
+  color: black;
+  width: 300px;
+  background-image: linear-gradient(to bottom right, #e9e9e9, #afa9a9);
+  border: 3px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #d6d6d6;
+  margin: 10px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 15px 15px 20px -8px grey;
+  // transition: border-color, background-image 2s;
+}
+
+.card-beer:hover{
+  border-color: #a3a2a2;
+  background-image: linear-gradient(to top left, #e9e9e9, #afa9a9);
+  box-shadow : 0 0 0 0;
+}
+
+.beer-name{
+  font-size: 120%;
+}
+
+.beer-tag{
+  font-size: 100%;
+}
+
+.beer-year{
+  font-size: 100%;
+}
+
+.beer-image{
+  height: 200px;
+  align-items: center;
+  margin-top: 10px;
+}
